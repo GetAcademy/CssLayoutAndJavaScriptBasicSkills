@@ -1,0 +1,2 @@
+- Layout med CSS (flexbox og grid)
+- JavaScript

@@ -48,19 +48,19 @@
         }
 
         .left {
-            border-left: 1px solid white;
+            border-left: 3px solid white;
         }
 
         .right {
-            border-right: 1px solid white;
+            border-right: 3px solid white;
         }
 
         .top {
-            border-top: 1px solid white;
+            border-top: 3px solid white;
         }
 
         .bottom {
-            border-bottom: 1px solid white;
+            border-bottom: 3px solid white;
         }
     </style>
 </head>
@@ -70,10 +70,26 @@
     </div>
 
     <script>
+        /*
+                <div style="
+                    grid-area: area1;
+                    overflow-y: scroll;
+                    overflow-x: hidden;
+                    background-color: darkblue;
+                    font-size: 40%;
+                    
+                    ">
+                    Det var en gang bla bla bla.
+                    Det var en gang bla bla bla.
+                    Det var en gang bla bla bla.
+                    Det var en gang bla bla bla.
+                </div>         
+        */
+
         showNeutral();
         function showNeutral() {
             document.getElementById('gear').innerHTML = /*HTML*/`            
-                <div style="grid-area: area1;"><button onclick="show1()">1</button></div>
+                <div style="grid-area: area1;">1</div>                
                 <div style="grid-area: area3;">3</div>
                 <div style="grid-area: area5;">5</div>
 
